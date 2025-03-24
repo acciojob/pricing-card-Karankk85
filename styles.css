@@ -1,1 +1,62 @@
 /*  your css code here. If applicable */
+/* Page styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    margin: 0;
+}
+
+/* Card styling */
+.card {
+    width: 300px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Image styling */
+.card-img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Title styling */
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 15px 0 5px;
+}
+
+/* Price styling */
+.card-price {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+/* Description styling */
+.card-description {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Button styling */
+.buy-btn {
+    padding: 10px 20px;
+    background-color: #f47062;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+.buy-btn:hover {
+    background-color: #e05a4f;
+}
